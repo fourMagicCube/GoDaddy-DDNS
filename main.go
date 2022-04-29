@@ -114,7 +114,7 @@ func ddns() {
 			return
 		}
 		if apiPutResponse.StatusCode == 200 {
-			logInfo.Println(err, "DDNS更新成功")
+			logInfo.Println("DDNS更新成功")
 		}
 	} else {
 		logInfo.Println(" 检测完毕，无需更改")
