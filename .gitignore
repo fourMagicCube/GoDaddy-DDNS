@@ -1,0 +1,12 @@
+# Created by .ignore support plugin (hsz.mobi)
+# git忽略提交
+
+#.gitignore
+.idea
+/logs
+*/target
+*.iml
+*.settings
+*.project
+*.logs
+*.log
